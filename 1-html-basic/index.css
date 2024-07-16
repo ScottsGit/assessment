@@ -33,7 +33,7 @@ body {
   justify-content: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   #signup .input-container {
     flex-direction: column;
   }
@@ -79,13 +79,16 @@ body {
   background-color: #1976d2;
   color: #fefbfb;
 }
+
 #signup input[type="submit"][value="Sign In"] {
   background-color: #66bb6a;
   color: #fefbfb;
 }
+
 #agreement a {
   text-decoration: none;
 }
+
 #agreement .register {
   background-color: #1976d2;
   color: #fefbfb;
