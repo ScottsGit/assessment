@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.flex-column {
+  flex-direction: column;
+  align-items: center;
+}
+
+#signup {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.form-header {
+  font-size: 2.2rem;
+}
+
+#signup .input-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  #signup .input-container {
+    flex-direction: column;
+  }
+}
+
+#signup .input-container input {
+  flex-grow: 1;
+}
+
+#signup input[type="text"],
+#signup input[type="number"],
+#signup input[type="email"],
+#signup input[type="password"],
+#signup input[type="submit"] {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  height: 50px;
+  margin: 8px 12px;
+  padding: 0px 15px;
+  font-size: 1.2rem;
+}
+
+#signup input:focus {
+  border-color: #32a1ce;
+  outline: 2px none #32a1ce;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#signup .agreement-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+}
+
+#signup .agreement-container .checkbox-container {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  min-width: 90px;
+}
+
+#signup input[type="submit"][value="Register"] {
+  background-color: #1976d2;
+  color: #fefbfb;
+}
+#signup input[type="submit"][value="Sign In"] {
+  background-color: #66bb6a;
+  color: #fefbfb;
+}
+#agreement a {
+  text-decoration: none;
+}
+#agreement .register {
+  background-color: #1976d2;
+  color: #fefbfb;
+  padding: 2px 5px;
+  margin: 5px 0px;
+  font-size: 0.8rem;
+}
+
+#agreement .terms {
+  color: #1976d2;
+}
