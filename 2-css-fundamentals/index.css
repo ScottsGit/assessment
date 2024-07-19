@@ -33,6 +33,8 @@ body {
     flex-wrap: nowrap;
     justify-content: flex-start;
     max-width: 600px;
+    margin:auto;
+    margin-top: 10vh;
 }
 
 .tweet__thumbnail img {
@@ -99,6 +101,3 @@ body {
     font-size: 1.3rem;
     padding-left: 12px;
 }
-
-
-
