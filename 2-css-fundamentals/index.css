@@ -45,7 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding-left: 12px;
+    margin-left: 12px;
 }
 
 .tweet__content__header {
@@ -65,7 +65,7 @@ body {
     color: #71767b;
     font-size: 1.5rem;
     text-align: center;
-    padding-left: 4px;
+    margin-left: 4px;
     
 }
 .header__metadata .metadata__tag {
@@ -79,7 +79,7 @@ body {
 }
 
 .tweet__content__actions {
-    padding-top: 12px;
+    margin-top: 12px;
     max-width: 425px;
     display: flex;
     justify-content: space-between;
@@ -100,5 +100,5 @@ body {
 .tweet__content__actions .action_count {
     color: #536471;
     font-size: 1.3rem;
-    padding-left: 12px;
+    margin-left: 12px;
 }
