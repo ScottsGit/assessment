@@ -75,6 +75,7 @@ body {
 .tweet__content__message {
     color: #0f1419;
     font-size: 1.5rem;
+    margin-top: 2px;
 }
 
 .tweet__content__actions {
