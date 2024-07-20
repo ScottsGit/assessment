@@ -631,7 +631,7 @@ console.log("28. Test myReduce: ", sum === 6);
 29. Write a JavaScript function to get the function name.
 */
 const myFunction = () => {};
-console.log("28. Test myFunction: ", myFunction.name === "myFunction");
+console.log("29. Test myFunction: ", myFunction.name === "myFunction");
 function getFuncName() {
   console.log(getFuncName.arguments.callee.name);
   console.log(getFuncName.name);
